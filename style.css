@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Ubuntu&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Ubuntu;
+}
+.header{
+    background-color: #1f2971;
+    height: 30rem;
+}
+.header_container{
+    padding-left: 20px;
+    display:flex;
+    justify-content: space-between;
+  
+}
+.header_logo{
+   font-family: Autour One;
+   color: antiquewhite;
+   padding: 2rem 5rem ;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: large;
+   transition: all .4s;
+   cursor: pointer;
+}
+.header_logo:hover{
+   scale: 1.5;
+}
+
+.navigation{
+    cursor: pointer;
+   width:25%;
+   display: flex;
+   justify-content: space-between;
+   padding-right: 5rem;
+   padding-top:2rem;
+   text-transform: uppercase;
+   font-family: Ubuntu;
+  
+  
+}
+.home{
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all .4s;
+}
+.home:hover{
+    scale: 1.3;
+}
+.about{
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all .4s;
+}
+.about:hover{
+    scale: 1.3;
+}
+.contact{
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all .4s;
+}
+.contact:hover{
+    scale: 1.3;
+}
+
+.header_body{
+    display:flex;
+}
+.header_lif{
+    padding: 1rem 2rem;
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(209, 193, 193);
+    padding-bottom:1rem;
+}
+h2{
+   color: rgb(209, 193, 193);
+}
+.header_btn{
+    cursor: pointer;
+    margin:1rem 0rem;
+    padding:1rem 3rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #051938;
+    color: beige;
+    border: none;
+
+}
+.header_img{
+    width: 40rem;
+    height: 22rem;
+   
+ border-radius: 20px;
+}
+
+.header_lif{
+    display: block;
+}
+
+/*  */
+#txt{
+    text-align: center;
+    padding: 1.5rem;
+    color: #04070F;
+    font-weight: bolder;
+}
+.content {
+   
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #img{
+   
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 97, 107);
+    
+  }
+
+  .qoute{
+    margin:1rem 0;
+    text-align: center;
+    height: 15rem;
+    background-color: #9094A1;
+    padding:3rem 2rem;
+    font-size: 1.5rem;
+  }
+
+.subscription{
+    display: flex;
+    background-color: #1f2971;
+    height: 10rem;
+    padding: 1rem 2rem;
+    margin:2rem 7rem;
+    border-radius: 10px;
+}
+.subs_txt{
+    padding:1.5rem 2rem;
+}
+.main_button{
+    cursor: pointer;
+    margin:2.5rem 7rem;
+    padding:1.3rem 3rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #051938;
+    color: beige;
+    border: none;
+    height: 50px;
+}
+
+.footer{
+    background-color: #796868;
+    height: 7rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
